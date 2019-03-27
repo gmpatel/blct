@@ -1,0 +1,1 @@
+dotnet run --project ./blct.webapi/blct.webapi.csproj
