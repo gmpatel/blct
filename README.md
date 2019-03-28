@@ -156,8 +156,6 @@ For the Windows users, from the root of the repository where the file `blct.sln`
 
 ### `Controller` methods can be modified with `async` & `await`
 
-```
 Doing parallel processing on ASP.NET consumes multiple threads per request, which can severely impact your scalability. Asynchronous processing is far superior for I/O.
 
 To use async, first start with your lowest-level call, somewhere inside your service. It's probably doing an HTTP call at some point; change that to use asynchronous HTTP calls (e.g., HttpClient). Then let async grow naturally from there.
-```
